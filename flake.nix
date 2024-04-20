@@ -21,7 +21,7 @@
               # custom config here
               programs.nh = {
                 enable = true;
-                flake = null;
+                flake = "/etc/nixos";
               };
             }
           )
